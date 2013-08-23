@@ -1,19 +1,14 @@
-Linux3188
+Linux 3.0.36 for RK3188 devices
 
 =========
 
-Linux Source - RK3188 - PicUntu
+Development environment: CentOS 6.4, but known to work on Ubuntu 12.04 and Debian 7.10 also.
 
-We are making progress.
+Target device: QC802 with AP6210 wireless chipset.
 
-The current code works... for developers though.
+Ready to flash recovery image to use with RK Android Tool: picuntu-kernel-qc802.img
 
-The development team is working hard to get this working for normal users as well.
+Kernel modules and firmware to put into linuxrootb sdcard is found in folder: mod_fw
 
-Thanks to Galland, the Linux console and the MALI support is operational.
-
-More updates soon...
-
-Alok
 
 
