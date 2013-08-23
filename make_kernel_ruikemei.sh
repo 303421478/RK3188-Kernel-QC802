@@ -18,8 +18,10 @@ cp $KEHU_FILE/logo_linux_clut224.ppm drivers/video/logo/
 echo "***********************"
 echo "make kernel.img"
 echo "***********************"
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- kernel.img -j8
-# make kernel.img -j8
+export CROSS_COMPILE=~/Downloads/Picuntu/rk/toolchains/gcc-linaro-arm-linux-gnueabihf-4.7-2013.01-20130125_linux/bin/arm-linux-gnueabihf-
+export ARCH=arm
+#make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- kernel.img -j8
+make kernel.img -j4
 #sz kernel.img
 
 echo "***********************"
